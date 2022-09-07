@@ -82,3 +82,35 @@ Para testar se tudo que fizemos está funcionando, vamos criar uma nova tarefa n
 Acesse `Senior X Platform` > `BPM` > `Central de Tarefas` e selecione `Nova Solicitação`, na lista de processos, escolha o processo criado anteriormente. Deverá então ser carregado o formulário já com os dados do usuário logado.
 
 ![image](https://user-images.githubusercontent.com/28518259/136284495-c1874784-0747-40cf-a61a-367711ea364e.png)
+
+
+Solicitação de Viagem - Alterando o Formulário.
+ 
+O Solicitante deve abrir uma solicitação informando para onde vai, o motivo e quanto vai Precisar Levar em Dinheiro. 
+
+Deverá ser Aprovado pelo gestor Imediato. 
+
+Após Aprovação do gestor deve retornar para o Solicitante  para apontar o Valor Gasto do Antecipado e colocar o Anexo das Despesas.
+ 
+No Formulario deve ter um campo com o Saldo a Devolver ou a Pagar.
+ 
+Tela Solicitante
+ 
+Solicitante - Buscar Dados Integração G5
+
+Campos Destino Cidade(Descrição),
+UF(Lista),
+Data,
+Motivo, (campo Lista, Cliente,Comercial,Treinamento), 
+Campo Observação(Explicar o Motivo). 
+Valor Antecipado Viagem (Valor)
+ 
+Tela Gestor,
+
+Visualizar todos os campos acima como somente leitura e liberar um Campo Observação para apontar algo se necessário.
+ 
+Solicitante Após Aprovação
+Todos os campos como Somente Leitura, somente um campo novo para informar quanto gastou na Viagem
+ 
+Financeiro
+Todos os Campos como Somente Leitura, criar campo Observação.
