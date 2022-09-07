@@ -114,3 +114,8 @@ Todos os campos como Somente Leitura, somente um campo novo para informar quanto
  
 Financeiro
 Todos os Campos como Somente Leitura, criar campo Observação.
+
+Tela Exemplo:
+
+![image](https://user-images.githubusercontent.com/30580018/188996787-105b9801-78a1-441d-96e5-f658bb048c72.png)
+
