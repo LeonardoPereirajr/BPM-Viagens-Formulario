@@ -46,8 +46,7 @@ function _init(data, info) {
       const numCep = map.get("numCep");
       const valor = map.get("valor");
       const valGasto = map.get("valGasto");
-      // const saldo = map.get("saldo");
-      // const obsGestor = map.get("obsGestor");
+      const obsGestor = map.get("obsGestor");
 
 
       document.getElementById("nomDes").setAttribute("value", nomDes);
@@ -58,8 +57,7 @@ function _init(data, info) {
       document.getElementById("numCep").setAttribute("value", numCep);
       document.getElementById("valor").setAttribute("value", valor);
       document.getElementById("valGasto").setAttribute("value",valGasto ) ;
-      // document.getElementById("saldo").setAttribute("value", valor-valGasto);
-      // document.getElementById("obsGestor").setAttribute("obsGestor",obsGestor);
+      document.getElementById("obsGestor").value = obsGestor;
     }
   });
 }
@@ -85,8 +83,7 @@ function _saveData(data, info) {
 
   newData.valor = document.getElementById("valor").value;
   newData.valGasto = document.getElementById("valGasto").value;
-  // newData.saldo = document.getElementById("saldo").value;
-  // newData.obsGestor = document.getElementById("obsGestor").value;
+  newData.obsGestor = document.getElementById("obsGestor").value;
 
 
   newData.check = document.getElementById("gridCheck").value;
