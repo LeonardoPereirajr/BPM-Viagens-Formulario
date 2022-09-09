@@ -45,8 +45,8 @@ function _init(data, info) {
       const estDes = map.get("estDes");
       const numCep = map.get("numCep");
       const valor = map.get("valor");
-      // const valGasto = map.get("valGasto");
-      // const saldo = map.get("saldo");
+      const valGasto = map.get("valGasto");
+      const saldo = map.get("saldo");
       // const obsGestor = map.get("obsGestor");
 
 
@@ -57,8 +57,8 @@ function _init(data, info) {
       document.getElementById("estDes").value = estDes;
       document.getElementById("numCep").setAttribute("value", numCep);
       document.getElementById("valor").setAttribute("value", valor);
-      // document.getElementById("valGasto").setAttribute("value",valGasto ) ;
-      // document.getElementById("saldo").setAttribute("value", valor-valGasto);
+      document.getElementById("valGasto").setAttribute("value",valGasto ) ;
+      document.getElementById("saldo").setAttribute("value", valor-valGasto);
       // document.getElementById("obsGestor").setAttribute("obsGestor",obsGestor);
     }
   });
@@ -84,8 +84,8 @@ function _saveData(data, info) {
   newData.numCep = document.getElementById("numCep").value;
 
   newData.valor = document.getElementById("valor").value;
-  // newData.valGasto = document.getElementById("valGasto").value;
-  // newData.saldo = document.getElementById("saldo").value;
+  newData.valGasto = document.getElementById("valGasto").value;
+  newData.saldo = document.getElementById("saldo").value;
   // newData.obsGestor = document.getElementById("obsGestor").value;
 
 
